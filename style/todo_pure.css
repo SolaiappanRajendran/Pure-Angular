@@ -1,0 +1,154 @@
+body {
+    /* Override bootstrap properties */
+    background-color: #374a5d !important;
+    border: 0 !important;
+}
+.page-header
+{
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+
+.todo-list-container
+{
+    position: relative;
+    width: 80%;
+    display: inline-block;
+    height:80%;
+    margin:5% 10%;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+}
+.todo-header
+{
+    height: 40px;
+    padding: 5px 2px;
+    position: relative;
+    border-bottom: 1px solid #ccc;    
+}
+
+.add-button
+{
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    right: 25px;
+    bottom: 5px;  
+}
+.add-button .fa.fa-plus-square
+{
+    font-size: 25pt;
+    color: green;
+}
+.todo-header-description
+{
+    margin: 0;
+    text-indent: 10px;
+}
+
+.todo-task{
+    border-radius: 5px;
+    background-color: #fff;
+    height: 45px;
+    
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+}
+.todo-task > div {
+    display: inline-block;
+    vertical-align: top;
+}
+.checkbox-container
+{
+    width: 5%;
+    min-width: 40px; 
+    height: 100%; 
+    cursor: pointer; 
+}
+
+.todo-task-container
+{
+    width: 80%;
+    height: 100%;  
+    position: relative;  
+}
+.edit-delete-task-container
+{
+    width: 15%;
+    height: 100%;
+}
+.edit-delete-task-container button
+{
+    margin: 0px 5px;
+    cursor: pointer;
+}
+i.fa.fa-check-square {
+color: green;
+}
+.checkbox-container .fa {
+color: white;
+font-size: 15pt;
+padding-top: 6px;
+}
+.task-title
+{
+    width: 400px;
+    width: calc(100% - 105px);
+    width: -webkit-calc(100% - 105px);
+    max-width: 55%;
+    display: inline-block;
+}
+.todo-task-container * 
+{
+    color: white; 
+}
+.task-due
+{
+    float: right;
+    display: inline-block;
+    width: 150px;
+    max-width: 40%;
+}
+.todo-task.priority-0
+{
+    background-color: #27ae60;
+}
+label[btn-radio]
+{
+    border: 0;
+}
+.todo-task.priority-1, label[btn-radio="1"]
+{
+    background-color: #7f8c8d;
+    background-image: none;
+}
+.todo-task.priority-2, label[btn-radio="2"]
+{
+    background-color: #d35400;
+    background-image: none;
+}
+.todo-task.priority-3, label[btn-radio="3"]
+{
+    background-color: #c0392b;
+    background-image: none;
+}
+.date-picker-text {
+}
+.modal-body .row
+{
+    margin: 0 !important;
+}
+span.input-group-btn
+{
+    display: inline !important;
+}
+.priority-container
+{
+    padding: 10px 0;
+}
+ul.dropdown-menu
+{
+    z-index: 99999 !important;
+}
